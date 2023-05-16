@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @font-face {
   font-family: "pantheraregular";
@@ -33,14 +35,128 @@
   font-weight: normal;
   font-style: normal;
 }
+/* --------------^^ Les font family ^^---------- */
+body {
+  background-image: url("../Allpages/arrière_plan.png");
+}
 .navlink {
   width: 100%;
   height: 300px;
-  background-color: aqua;
 }
-h1 {
-  font-family: "cantarellregularr";
+.header {
+  width: 100%;
+  height: 100vh;
+}
+.ligneGauche {
+  position: fixed;
+  width: 3px;
+  height: 60vh;
+  background-color: #f2cef2;
+  margin-left: 3%;
+}
+.lignetDoite {
+  position: relative;
+  width: 3px;
+  height: 42vh;
+  background-color: #f2cef2;
+  margin-left: 6.5%;
+}
+.ligneDroiteRs {
+  width: 20px;
+  height: 60vh;
+  position: fixed;
+  margin-left: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reseauSociaux {
+  width: 20px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logoNavigation {
+  width: 85%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logoSaynaXMarvel {
+  width: 9%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerNav {
+  width: 25%;
+  height: auto;
+}
+.navUl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.item {
+  list-style: none;
+}
+.item a {
+  text-decoration: none;
+  font-family: "beynoregular";
+  color: #ffffff;
+  font-size: 22px;
+}
+.titleImage {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titleInfos {
+  width: 32%;
+  height: 50vh;
+  margin-top: 100px;
+}
+.titleInfos h1 {
+  font-family: "pantheraregular";
+  font-size: 68px;
+  color: #9e91b7;
+  margin-bottom: 20px;
+}
+.titleInfos h2 {
+  font-family: "beynoregular";
+  font-size: 32px;
+  color: #9e91b7;
+  margin-bottom: 30px;
+}
+.titleInfos p,
+.titleInfos a {
+  font-family: "cantarellregular";
   font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
+  color: #ffffff;
+}
+.titleInfos p {
+  margin-bottom: 20px;
+}
+.HeaderImg {
+  width: 50%;
+  height: auto;
 }
