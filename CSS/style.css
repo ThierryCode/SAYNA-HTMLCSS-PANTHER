@@ -5,3 +5,42 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "pantheraregular";
+  src: url("../font/pantheraregular-mvz9j-webfont.woff2") format("woff2"),
+    url("../font/pantheraregular-mvz9j-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "beynoregular";
+  src: url("../font/beyno-webfont.woff2") format("woff2"),
+    url("../font/beyno-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "wakanda_foreverregular";
+  src: url("../font/wakandaforever-regular-webfont.woff2") format("woff2"),
+    url("../font/wakandaforever-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cantarellregular";
+  src: url("../font/cantarell-regular-webfont.woff2") format("woff2"),
+    url("../font/cantarell-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.navlink {
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+}
+h1 {
+  font-family: "cantarellregularr";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
