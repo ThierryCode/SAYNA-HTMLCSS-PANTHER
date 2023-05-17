@@ -182,7 +182,7 @@ body {
   margin-right: 0px;
 }
 
-/* -------------------------Responsive header------------------ */
+/* -------------------------Responsive header partie nav image et titre ------------------ */
 @media screen and (max-width: 1540px) {
   .logoNavigation {
     /* background-color: aqua; */
@@ -235,4 +235,51 @@ body {
     margin-bottom: 100px;
     /* position: absolute; */
   }
+}
+/*--------------------Partie Article sur les personnages------------------*/
+.article {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right: 0;
+}
+.backgroundArticle {
+  width: 90%;
+  height: 345px;
+  right: 0;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #021740;
+}
+.Killmonger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.KilmongerContent,
+.OkoyeContent {
+  padding: 20px;
+}
+.KilmongerContent h2,
+.OkoyeContent h2 {
+  font-family: "beynoregular";
+  font-size: 32px;
+  color: #9e91b7;
+  margin-bottom: 30px;
+}
+.KilmongerContent p,
+.OkoyeContent p,
+.KilmongerContent a,
+.OkoyeContent a {
+  font-family: "cantarellregular";
+  font-size: 16px;
+  width: 90%;
+  color: #ffffff;
 }
