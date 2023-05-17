@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 @font-face {
   font-family: "pantheraregular";
@@ -323,3 +323,163 @@ body {
   }
 }
 /* --------------Fin responsive sur la partie Article sur les personnages --------------------------*/
+.contenuCard {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 150px;
+  /* background-color: aquamarine; */
+}
+.contenu {
+  width: 60%;
+  padding: 50px;
+}
+.contenu h2 {
+  font-family: "beynoregular";
+  font-size: 32px;
+  color: #9e91b7;
+  margin-bottom: 30px;
+}
+.contenu p {
+  font-family: "cantarellregular";
+  font-size: 16px;
+  width: 90%;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.tchallaImg {
+  position: absolute;
+  margin-top: 0px;
+}
+.card {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: bisque; */
+}
+.infoTchalla {
+  background-color: #f2cef2;
+  width: 450px;
+  height: auto;
+  padding-top: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin-top: 300px;
+  border-radius: 10px;
+}
+.infoTchalla h3 {
+  font-family: "cantarellregular";
+  text-align: center;
+  margin-top: 20px;
+}
+.infoTchalla p {
+  font-family: "cantarellregular";
+  text-align: justify;
+  margin-top: 10px;
+}
+.infoTchalla span {
+  font-family: "cantarellregular";
+  text-align: justify;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.cardbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cardbutton button {
+  width: auto;
+  padding: 10px 15px;
+  background-color: #3d2da6;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "cantarellregular";
+  color: #ffffff;
+}
+/*-----------------Partie sur les synopsis et l'histoire de T'challa-----------------------*/
+@media screen and (max-width: 1024px) {
+  .contenuCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px;
+    margin: auto;
+  }
+  .contenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+  }
+  .card {
+    width: 100%;
+    min-width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .infoTchalla {
+    background-color: #f2cef2;
+    min-width: 310px;
+    height: auto;
+    padding-top: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-top: 300px;
+    border-radius: 10px;
+  }
+}
+/*-----------------Fin Partie sur les synopsis et l'histoire de T'challa-----------------------*/
+/*----------------- Responsive T'challa et quelque paramétrage dans le header-----------------------*/
+@media screen and (max-width: 515px) {
+  .card {
+    width: 100%;
+    min-width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .titleInfos,
+  .titleInfos p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .infoTchalla {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .KillmongerImage img {
+    width: 100%;
+  }
+}
+/*----------------- Fin Responsive T'challa et quelque paramétrage dans le header-----------------------*/
