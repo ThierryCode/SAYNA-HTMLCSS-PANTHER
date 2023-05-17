@@ -54,6 +54,7 @@ body {
   height: 60vh;
   background-color: #f2cef2;
   margin-left: 3%;
+  z-index: 999;
 }
 .lignetDoite {
   position: relative;
@@ -61,6 +62,7 @@ body {
   height: 42vh;
   background-color: #f2cef2;
   margin-left: 6.5%;
+  z-index: 999;
 }
 .ligneDroiteRs {
   width: 20px;
@@ -72,6 +74,7 @@ body {
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 999;
 }
 .reseauSociaux {
   width: 20px;
@@ -81,6 +84,7 @@ body {
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 999;
 }
 /* ---------Partie barre de navigation et les 3 logos Sayna x Marvel--------------- */
 .logoNavigation {
@@ -283,3 +287,39 @@ body {
   width: 90%;
   color: #ffffff;
 }
+/* --------------responsive sur la partie Article sur les personnages --------------------------*/
+@media screen and (max-width: 1615px) {
+  .backgroundArticle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1460px) {
+  .backgroundArticle {
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .article {
+    width: 100%;
+    height: auto;
+  }
+  .backgroundArticle h2,
+  .backgroundArticle p,
+  .OkoyeContent a,
+  .KilmongerContent a {
+    margin: auto;
+    text-align: center;
+  }
+  .OkoyeContent a,
+  .KilmongerContent a {
+    display: block;
+  }
+}
+/* --------------Fin responsive sur la partie Article sur les personnages --------------------------*/
