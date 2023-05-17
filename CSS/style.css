@@ -185,15 +185,54 @@ body {
 /* -------------------------Responsive header------------------ */
 @media screen and (max-width: 1540px) {
   .logoNavigation {
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-left: 10%;
     padding-right: 10%;
   }
 }
-@media screen and (max-width: 792) {
+@media screen and (max-width: 792px) {
   .logoNavigation {
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-left: 5%;
     padding-right: 5%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .logoNavigation {
+    /* background-color: aqua; */
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 510px) {
+  .headerNav {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 910px) {
+  .titleImage {
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+  }
+  .titleInfos {
+    /* background-color: #9e91b7; */
+    width: 80%;
+    margin-left: auto;
+  }
+  .HeaderImg {
+    min-width: 300px;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .HeaderImg img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    /* position: absolute; */
   }
 }
