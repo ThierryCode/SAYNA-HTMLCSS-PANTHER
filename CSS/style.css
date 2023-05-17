@@ -178,7 +178,6 @@ body {
 .HeaderImg {
   width: 65%;
   height: auto;
-  /* background-color: aqua; */
 }
 .HeaderImg img {
   width: 100%;
@@ -189,21 +188,18 @@ body {
 /* -------------------------Responsive header partie nav image et titre ------------------ */
 @media screen and (max-width: 1540px) {
   .logoNavigation {
-    /* background-color: aqua; */
     padding-left: 10%;
     padding-right: 10%;
   }
 }
 @media screen and (max-width: 792px) {
   .logoNavigation {
-    /* background-color: aqua; */
     padding-left: 5%;
     padding-right: 5%;
   }
 }
 @media screen and (max-width: 750px) {
   .logoNavigation {
-    /* background-color: aqua; */
     padding-left: 5%;
     padding-right: 5%;
     flex-direction: column;
@@ -220,24 +216,20 @@ body {
   .titleImage {
     flex-direction: column;
     justify-content: space-around;
-    /* background-color: blueviolet; */
   }
   .titleInfos {
-    /* background-color: #9e91b7; */
     width: 80%;
     margin-left: auto;
   }
   .HeaderImg {
     min-width: 300px;
     height: auto;
-    /* background-color: aqua; */
   }
   .HeaderImg img {
     width: 100%;
     height: auto;
     margin-top: 50px;
     margin-bottom: 100px;
-    /* position: absolute; */
   }
 }
 /*--------------------Partie Article sur les personnages------------------*/
@@ -331,7 +323,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 150px;
-  /* background-color: aquamarine; */
 }
 .contenu {
   width: 60%;
@@ -647,7 +638,6 @@ footer {
   justify-content: center;
   flex-direction: row;
   justify-content: space-around;
-  /* background-color: aqua; */
 }
 .SaynaMarvelCircle {
   width: 40%;
@@ -655,14 +645,12 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #3d2da6; */
 }
 .SaynaMarvelCircle img:first-of-type {
   position: relative;
 }
 .logoFooter {
   position: absolute;
-  /* background-color: #3d2da6; */
   width: 8%;
   height: 10vh;
   display: flex;
@@ -679,7 +667,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: #3d2da6; */
 }
 .pagesContact {
   width: 100%;
@@ -689,13 +676,11 @@ footer {
   justify-content: center;
   flex-direction: row;
   justify-content: space-between;
-  /* background-color: #cac6e6; */
 }
 .pages,
 .ContacRs {
   width: 50%;
   height: 100%;
-  /* background-color: #513be2; */
   padding: 20px;
 }
 .pages p,
@@ -716,14 +701,13 @@ footer {
   color: #ffffff;
 }
 .contactIconFooter {
-  width: 60%;
+  width: 200px;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: start;
   flex-direction: row;
   justify-content: space-between;
-  /* background-color: aqua; */
 }
 .contactIconFooter .containerIcon:nth-child(1) {
   background-color: #f2cef2;
@@ -748,7 +732,6 @@ footer {
 .droit {
   width: 100%;
   height: auto;
-  /* background-color: aqua; */
 }
 .droit p {
   font-family: "cantarellregular";
@@ -764,3 +747,47 @@ footer {
   border-radius: 50%;
 }
 /* ------------------------------ fin Section footer -------------------*/
+/* ------------------------------   Responsive du Section footer -------------------*/
+
+/* ------------------------------   Fin Responsive du Section footer -------------------*/
+@media screen and (max-width: 765px) {
+  .pagesContact {
+    height: auto;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 555px) {
+  .droit {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .footerContent {
+    width: 100%;
+  }
+  .contactIconFooter {
+    width: 150px;
+  }
+  .containerIcon {
+    padding: 2px;
+  }
+  .containerIcon img {
+    width: 10px;
+    height: 10px;
+  }
+  .footerContent {
+    flex-direction: column;
+  }
+  .pagesContact {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .pagesContactRsDroit {
+    width: 100%;
+  }
+  .SaynaMarvelCircle img {
+    width: 100%;
+  }
+}
+/* --------------Fin responsive du Section footer -------------------*/
