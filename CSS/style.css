@@ -627,3 +627,140 @@ textarea::placeholder {
   }
 }
 /*------------------Fin responside pour le formulaire de contact-------------*/
+/* ------------------------------Section footer -------------------*/
+footer {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../Allpages/back_footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerContent {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+.SaynaMarvelCircle {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #3d2da6; */
+}
+.SaynaMarvelCircle img:first-of-type {
+  position: relative;
+}
+.logoFooter {
+  position: absolute;
+  /* background-color: #3d2da6; */
+  width: 8%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pagesContactRsDroit {
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: #3d2da6; */
+}
+.pagesContact {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #cac6e6; */
+}
+.pages,
+.ContacRs {
+  width: 50%;
+  height: 100%;
+  /* background-color: #513be2; */
+  padding: 20px;
+}
+.pages p,
+.ContacRs p {
+  font-family: "cantarellregular";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 28%;
+}
+.pages a {
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-family: "cantarellregular";
+  font-size: 18px;
+  color: #ffffff;
+}
+.contactIconFooter {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.contactIconFooter .containerIcon:nth-child(1) {
+  background-color: #f2cef2;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contactIconFooter .containerIcon:nth-child(2) {
+  background-color: #df99f2;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contactIconFooter .containerIcon:nth-child(3) {
+  background-color: #3d2da6;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contactIconFooter .containerIcon:nth-child(4) {
+  background-color: #07338c;
+  padding: 10px;
+  border-radius: 50%;
+}
+.droit {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+}
+.droit p {
+  font-family: "cantarellregular";
+  font-size: 16px;
+  width: 90%;
+  color: #ffffff;
+}
+.droit span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #f2cef2;
+  border-radius: 50%;
+}
+/* ------------------------------ fin Section footer -------------------*/
