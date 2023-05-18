@@ -978,3 +978,31 @@ footer {
     padding: 10px;
   }
 }
+/*----------- Fin partie responsive Wakanda-------------*/
+/*--------------Css Enigme-----------------*/
+.titleImageEnigme {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.titleEnigme {
+  width: 40%;
+  height: 50vh;
+  background-color: aqua;
+}
+.titleEnigme h1 {
+  font-family: "beynoregular";
+  font-size: 68px;
+  color: #9e91b7;
+  margin-bottom: 20px;
+}
+.imageEnigme {
+  max-width: 60%;
+  background-color: #9e91b7;
+}
+.imageEnigme img {
+  background-color: brown;
+  width: 100%;
+}
