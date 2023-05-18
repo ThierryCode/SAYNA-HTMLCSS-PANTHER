@@ -314,6 +314,17 @@ body {
     display: block;
   }
 }
+@media screen and (max-width: 425px) {
+  .backgroundArticle {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .backgroundArticle {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+}
 /* --------------Fin responsive sur la partie Article sur les personnages --------------------------*/
 .contenuCard {
   width: 100%;
@@ -336,6 +347,7 @@ body {
 }
 .contenu p {
   font-family: "cantarellregular";
+  width: 100% !important;
   font-size: 16px;
   width: 90%;
   color: #ffffff;
@@ -382,6 +394,10 @@ body {
   text-align: justify;
   margin-top: 10px;
   font-weight: bold;
+}
+.minuscule {
+  font-family: "cantarellregular";
+  font-size: 10px;
 }
 .cardbutton {
   display: flex;
@@ -433,7 +449,7 @@ body {
   }
   .infoTchalla {
     background-color: #f2cef2;
-    min-width: 310px;
+    width: 100%;
     height: auto;
     padding-top: 250px;
     padding-left: 50px;
@@ -463,14 +479,22 @@ body {
   }
   .infoTchalla {
     width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    border-radius: 0px;
   }
   .card img {
     width: 100%;
   }
 }
 @media screen and (max-width: 370px) {
+  .KillmongerImage {
+    margin: 0px;
+    padding: 0px;
+  }
   .KillmongerImage img {
     width: 100%;
+    margin: 0px;
   }
 }
 /*----------------- Fin Responsive T'challa et quelque paramétrage dans le header-----------------------*/
@@ -611,10 +635,13 @@ textarea::placeholder {
     border-radius: 0px;
   }
   .tchallaImg {
+    position: relative;
     width: 100%;
+    padding: 0px;
   }
   .tchallaImg img {
     width: 100%;
+    margin: 0px;
   }
 }
 /*------------------Fin responside pour le formulaire de contact-------------*/
@@ -732,12 +759,15 @@ footer {
 .droit {
   width: 100%;
   height: auto;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .droit p {
   font-family: "cantarellregular";
   font-size: 16px;
-  width: 90%;
+  width: 100%;
   color: #ffffff;
+  text-align: center;
 }
 .droit span {
   display: inline-block;
@@ -788,6 +818,12 @@ footer {
   }
   .SaynaMarvelCircle img {
     width: 100%;
+  }
+  .droit {
+    width: 100%;
+    height: 20px;
+    margin: 0px;
+    padding-left: 200px;
   }
 }
 /* --------------Fin responsive du Section footer -------------------*/
@@ -880,27 +916,41 @@ footer {
   background-repeat: no-repeat;
 }
 .youtubLink {
+  margin: 0;
   padding: 30px;
-  width: 90%;
+  padding-left: 20%;
+  padding-right: auto;
+  width: 100%;
+  height: 300px;
   font-size: 16px;
   font-family: "cantarellregular";
   background-color: #3d2da6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .youtubLink a {
+  text-align: center;
   font-size: 16px;
   font-family: "cantarellregular";
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .militaireImg {
   width: 100%;
   height: auto;
+}
+.militaireImg img {
+  width: 100%;
 }
 @media screen and (max-width: 655px) {
 }
 /*-----------Partie responsive Wakanda-------------*/
 @media screen and (max-width: 700px) {
   .militaireImg {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
