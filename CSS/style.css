@@ -815,7 +815,8 @@ footer {
   color: #9e91b7;
 }
 /*------------------Fin animation nav bar----------*/
-/*------------------Debut wakanda--------------------*/
+/*------------------Debut css wakanda--------------------*/
+/*----------HEADER WAKANDA----------------*/
 .headerWakanda {
   width: 100%;
   height: 100vh;
@@ -829,7 +830,6 @@ footer {
 }
 .titleWakanda {
   width: 80%;
-  height: auto;
   padding: 200px;
 }
 .titleWakanda h1 {
@@ -840,18 +840,91 @@ footer {
 }
 .titleWakanda h2 {
   font-family: "wakanda_foreverregular";
-  font-size: 68px;
+  font-size: 43px;
   color: #9e91b7;
   margin-bottom: 20px;
 }
-.titleWakanda p {
-  background-color: #df99f2;
-  width: 20px;
+
+.titleWakanda P {
   height: auto;
   font-family: "cantarellregular";
   font-size: 16px;
-  width: 90%;
   color: #ffffff;
-  margin-bottom: 20px;
-  text-align: justify;
+}
+.circle {
+  width: 45%;
+  height: 45%;
+}
+/*---------- Fin HEADER WAKANDA----------------*/
+/*-----------Partie responsive du header Wakanda-------------*/
+@media screen and (max-width: 670px) {
+  .titleWakanda,
+  .paragrapheCircle {
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 200px;
+    left: 0;
+    right: 0;
+    padding: 0;
+  }
+  .headerWakanda {
+    align-items: start;
+    justify-content: center;
+  }
+}
+/*---------------Contenu textuel wakanda ------------*/
+.contentwakanda {
+  background-image: url("../Wakanda/Pantherwakanda2.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.youtubLink {
+  padding: 30px;
+  width: 90%;
+  font-size: 16px;
+  font-family: "cantarellregular";
+  background-color: #3d2da6;
+}
+.youtubLink a {
+  font-size: 16px;
+  font-family: "cantarellregular";
+  color: #ffffff;
+}
+.militaireImg {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 655px) {
+}
+/*-----------Partie responsive Wakanda-------------*/
+@media screen and (max-width: 700px) {
+  .militaireImg {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 670px) {
+  .contenu h2 {
+    line-height: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 620px) {
+  .contenu p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .youtubLink {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .youtubLink {
+    padding: 10px;
+  }
 }
