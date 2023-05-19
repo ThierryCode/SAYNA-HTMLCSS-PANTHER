@@ -546,7 +546,7 @@ form {
   flex-direction: column;
   justify-content: space-between;
 }
-form button {
+button {
   width: 174px;
   height: 54px;
   border-radius: 38px;
@@ -1034,6 +1034,7 @@ footer {
 }
 /*--------------- Fin Header Enigme------------*/
 /*--------------- Responsive Header Enigme------------*/
+
 @media screen and (max-width: 1300px) {
   .titleImageEnigme {
     width: 100%;
@@ -1068,3 +1069,81 @@ footer {
     text-align: justify;
   }
 }
+/*----------Question et reponse Enigme---------------*/
+.enigmeAsavoir {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #df99f2; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.enigmTitle {
+  display: block;
+  font-family: "wakanda_foreverregular";
+  font-size: 43px;
+  color: #9e91b7;
+  margin-bottom: 20px;
+  width: 50%;
+  /* background-color: #3d2da6; */
+  text-align: justify;
+}
+.containerEnigmRespons {
+  width: 100%;
+  height: 50vh;
+  /* background-color: #07338c; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.transcriptionBox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #df99f2; */
+  align-items: justify;
+}
+.transcriptionBox p:first-child,
+.reponse p {
+  font-family: "cantarellregular";
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.transcriptionBox p:nth-child(2) {
+  font-family: "cantarellregular";
+  color: #ffffff;
+  text-align: justify;
+}
+.transcriptionBox p:nth-child(2) span {
+  font-family: "wakanda_foreverregular";
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.transcriptionBox {
+  width: 30%;
+}
+.reponse input {
+  border: 1px solid #f2cef2;
+}
+.reponse input::placeholder {
+  color: #f2cef2;
+}
+.reponse {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #df99f2; */
+  align-items: justify;
+}
+.reponse {
+}
+/*---------------Fin question et reponse Enigme---------------*/
