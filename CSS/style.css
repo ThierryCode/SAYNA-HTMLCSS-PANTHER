@@ -983,7 +983,7 @@ footer {
 .titleImageEnigme {
   width: 100%;
   height: 100vh;
-  padding-right: 5%;
+  padding-right: 15%;
   display: flex;
   align-items: end;
   justify-content: end;
@@ -1072,19 +1072,27 @@ footer {
 /*----------Question et reponse Enigme---------------*/
 .enigmeAsavoir {
   width: 100%;
-  height: 100vh;
+  height: auto;
   /* background-color: #df99f2; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.containerEnigm {
+  width: 90%;
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
 }
+
 .enigmTitle {
+  padding-left: 6%;
   display: block;
+  width: 100%;
   font-family: "wakanda_foreverregular";
   font-size: 43px;
   color: #9e91b7;
@@ -1095,13 +1103,13 @@ footer {
 }
 .containerEnigmRespons {
   width: 100%;
-  height: 50vh;
+  height: auto;
   /* background-color: #07338c; */
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .transcriptionBox {
   display: flex;
@@ -1132,11 +1140,13 @@ footer {
 }
 .reponse input {
   border: 1px solid #f2cef2;
+  margin-bottom: 150px;
 }
 .reponse input::placeholder {
   color: #f2cef2;
 }
 .reponse {
+  padding-left: 6%;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -1144,6 +1154,46 @@ footer {
   /* background-color: #df99f2; */
   align-items: justify;
 }
-.reponse {
+.reponse button {
+  margin-left: 155px;
+  margin-bottom: 100px;
 }
 /*---------------Fin question et reponse Enigme---------------*/
+/*-----------Responsive pour la seceetion question et reponse Enigme--------------*/
+@media screen and (max-width: 1300px) {
+  .enigmTitle {
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .containerEnigmRespons {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .paragEnigme {
+    width: 100%;
+  }
+  .reponse {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #df99f2; */
+    align-items: justify;
+  }
+  .reponse input {
+    border: 1px solid #f2cef2;
+    margin-bottom: 100px;
+  }
+  .reponse button {
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .containerEnigmRespons {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+  }
+}
