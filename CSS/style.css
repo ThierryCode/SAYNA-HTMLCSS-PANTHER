@@ -1141,6 +1141,7 @@ footer {
 .reponse input {
   border: 1px solid #f2cef2;
   margin-bottom: 150px;
+  color: #f2cef2;
 }
 .reponse input::placeholder {
   color: #f2cef2;
