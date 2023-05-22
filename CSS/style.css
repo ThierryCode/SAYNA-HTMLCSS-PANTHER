@@ -778,7 +778,6 @@ footer {
 /* ------------------------------ fin Section footer -------------------*/
 /* ------------------------------   Responsive du Section footer -------------------*/
 
-/* ------------------------------   Fin Responsive du Section footer -------------------*/
 @media screen and (max-width: 765px) {
   .pagesContact {
     height: auto;
@@ -878,6 +877,7 @@ footer {
   font-size: 43px;
   color: #9e91b7;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .titleWakanda P {
@@ -929,6 +929,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 .youtubLink a {
   text-align: center;
